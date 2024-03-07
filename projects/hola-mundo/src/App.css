@@ -27,7 +27,7 @@ article header span {
     height: 48px;
 }
 
-article button {
+.tw-followCard-button {
     margin-left: 16px;
     border: 0;
     border-radius: 999px;
@@ -35,7 +35,17 @@ article button {
     font-weight: bold;
 }
 
-article button:hover {
+.tw-followCard-button:hover {
     background: rgba(255, 255, 255, .1);
     color: #fff;
+}
+
+.tw-followCard-button--following {
+    background: rgba(255, 255, 255, .1);
+    color: #fff;
+}
+
+.tw-followCard-button--following:hover {
+    background: #fff;
+    color: #000;
 }
